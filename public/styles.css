@@ -1,0 +1,71 @@
+#root,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #002038;
+  background-image: url("https://www.transparenttextures.com/patterns/shley-tree-1.png");
+  font-family: "Architects Daughter", cursive;
+  color: #fff;
+  text-align: center;
+}
+
+.app {
+  margin: 0% 10%;
+  height: 100vh;
+}
+
+.heading {
+  margin-top: 2%;
+  font-size: 5rem;
+  text-decoration: underline;
+}
+
+.time-container {
+  margin-top: 5%;
+}
+
+.number {
+  font-size: 5vw;
+  font-weight: bold;
+}
+
+.buttons {
+  margin-top: 8%;
+  font-size: 2rem;
+}
+
+ul {
+  margin-top: 5%;
+  /* border: 2px solid white; */
+  height: 30%;
+  /* width: 30%; */
+  overflow-y: scroll;
+  list-style-type: none;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+li {
+  font-size: 1.5rem;
+  border-bottom: 2px solid white;
+}
+
+.footer {
+  /* position: absolute;
+  bottom: 0px; */
+  position: fixed;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  /* Height of the footer*/
+  height: 40px;
+  right: 0%;
+}
